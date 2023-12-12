@@ -1,0 +1,37 @@
+siteName: casamento.separovi.ch
+siteName-2: casamento.separovich.com
+
+title: Casamento Alvaro e Gabriella
+subtitle: 06 Abril de 2024
+imgsUrl:
+  main: https://i.imgur.com/0Z1X1ZM.jpg
+  auxiliar: https://i.imgur.com/0Z1X1ZM.jpg
+
+comoSeConheceram: "
+  Tudo começou no dia 26, de novembro, sábado, show da Lorena Chaves.
+  Ela o viu, logo pensou: \"Será que é ele que é pra mim?\"
+  Ela disse pra si mesma: \"É imporssivel ser assim\". 
+
+  Como você pode perceber, ela errou pra valer.
+
+  Alguns dias depois, ela o seguiu no Instagram, mandou uma mensagem se apresentando, tinham amigos em comum, poderiam ter se conhecido antes, mas Deus já tinha o momento certo pra isso acontecer, pra que pudessem florescer.
+
+  Foram dias de conversa, madrugadas a dentro.
+  Depois, o primeiro encontro, o segundo, o terceiro, o quarto...
+  Namoraram, noivaram e seguem trilhando a vida, rumo ao próximo passo... O casamento!"
+
+local:
+  name: IPUS - Igreja Presbiteriana Unida de Suzano
+  address: Rua Portugal Freixo, 363, Vila Suely, Suzano - SP, 08674-170, Brazil
+  mapUrl: https://maps.app.goo.gl/xZRpqVtKwB67gKkg9
+
+cronograma:
+  recepcao: 
+    hora: 15:00
+    description: alguns lanchinhos leves, aproveite para conversar e aguardar a cerimônia.
+  cerimonia:
+    hora: 16:00
+    description: A cerimônia tem expectativa de durar 30 min
+  confraternizacao:
+    hora: 16:30
+    description: Aproveite para comer alguns snacks, tirar fotos, conversar e ter um momento agradavel para se lembrar no futuro.
