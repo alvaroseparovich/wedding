@@ -39,11 +39,57 @@
   <h1 style="text-transform: uppercase; letter-spacing: 3px;">Alvaro & Gabriella</h1>
   <p>Para nosso casamento você é nosso convidado</p>
   <h2 class="convidado-nome">Abel Separovich</h2>
-  <h3>06 Abril 2024</h3>
-  <p>Suzano, sp</p>
-  <p>215 days</p>
-  <h3>Como nos conhecemos</h3>
-  <p>26 de novembro 2022</p>
-  <img src="/imgs/casal/main.jpg" class="css-1exscpf elkal1d1">
+ 
+  
+  <div class="e1ol6c1n3 css-5ael0v ei5ahdy5">
+    <div class="css-xi606m ei5ahdy1">
+      <h3 class="css-gf341y epna9lj0" style=" font-weight: 400; text-transform: uppercase; line-height: 1.07; letter-spacing: 3px;">
+06 Abril 2024</h3>
+<div data-testid="WeddingCountdown">
+  <h2 id="countdown"></h2>
+</div>
+<div class="css-19v0ev7 ei5ahdy0" style="font-family: &quot;Libre Baskerville&quot;; font-weight: 400; text-transform: uppercase; line-height: 1.63; letter-spacing: normal; font-size: 16px;">
+        IPUS - Igreja Presbiteriana Unida de Suzano
+    </div>
+    <a href="https://maps.app.goo.gl/xZRpqVtKwB67gKkg9">Rua Portugal Freixo, 363, Vila Suely, Suzano - SP, 08674-170, Brazil</a></div>
+    <div data-testid="WeddingCountdown">
+      <h2 id="countdown"></h2>
+    </div>
+  </div>
+
+
+
+  <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdyaPO7MDBMjlBKstW9nlpihKz-0K6d2EUiqOBo0MVYHY4bWw/viewform?embedded=true&entry.456190032=##INVITE-CODE##" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+  <!-- <img src="/imgs/casal/main.jpg" class="css-1exscpf elkal1d1"> -->
+
+
+  <script>
+    // Set the date we're counting down to
+    const countDownDate = new Date("April 6, 2024 16:00:00").getTime();
+  
+    // Update the countdown every 1 second
+    const countdownInterval = setInterval(function() {
+      // Get the current date and time
+      const now = new Date().getTime();
+  
+      // Calculate the time remaining
+      const timeRemaining = countDownDate - now;
+  
+      // Calculate days, hours, minutes, and seconds
+      const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+  
+      // If the countdown is over, display a message
+      if (timeRemaining < 0) {
+        document.getElementById("countdown").innerHTML = `Casados a ${days * -1}d ${hours * -1}h ${minutes * -1}m ${seconds * -1}s`;
+      } else {
+        // Display the countdown
+        document.getElementById("countdown").innerHTML = ` Casamento em ${days}d ${hours}h ${minutes}m ${seconds}s`;  
+      }
+    }, 1000); // Update every 1000 milliseconds (1 second)
+  </script>
 </body>
 </html>

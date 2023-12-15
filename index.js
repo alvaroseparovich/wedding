@@ -38,8 +38,9 @@ rl.on('line', (line) => {
   } else {
     convidado = line.split(",")[0]
   }
+  let convHtml = html.replace('##INVITE-CODE##',btoa(toFileName(convidado)))
   // Load the HTML content into Cheerio
-  let $ = cheerio.load(html);
+  let $ = cheerio.load(convHtml);
   
   // Select the elements you want to replace and replace their text
   $('.convidado-nome').text(convidado);
