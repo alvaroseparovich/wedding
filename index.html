@@ -289,17 +289,46 @@ Depois, o primeiro encontro, o segundo...
   </div>
     <div class="accordion-content" id="content5">
       <p>Formal.</p>
-      <p>Mulheres de braco é proibido. Apenas a noiva estará de branco.</p>
+      <p>Mulheres de branco é proibido. Apenas a noiva estará de branco.</p>
       <p>Procure roupas formais e modestas.</p>
     </div>
   </div>
 
   <div class="accordion-item">
-    <div class="accordion-header" onclick="toggleAccordion(6)">Começaremos no horario?
+    <div class="accordion-header" onclick="toggleAccordion(6)">Começaremos no horário?
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" fill="#34705e"><path d="M12 21l-12-18h24z"/></svg>
   </div>
     <div class="accordion-content" id="content6">
-      <p>A cerimonia começará pontualmente no horario marcado, aproveite o momento de recepçao para comer algum snack, conversar e aguardar o horario pontualmente.</p>
+      <p>A cerimonia começará pontualmente no horário marcado, aproveite o momento de recepçao para comer algum snack, conversar e aguardar o horário pontualmente.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header" onclick="toggleAccordion(7)">Existe lista de presentes?
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" fill="#34705e"><path d="M12 21l-12-18h24z"/></svg>
+  </div>
+    <div class="accordion-content" id="content7">
+      <p>Por diversos motivos nao temos uma lista de presentes, porém aceitamos o seu presente por PIX.</p>
+      <p>Que você receba de Deus na mesma proporção, para o resto da vida.</p>
+      <h2>Chave Pix</h2>
+      <div style="display: inline-block;max-width: 600px;">
+    
+        <input type="text" id="copyText" value="alvaro-e-gabriella@mail.separovi.ch" readonly="" style="
+        font-size: 1.3em;
+        width: 100%;
+        text-align: center;
+        background: #c6977466;
+        border: none;
+        border-radius: 200px;
+    ">
+        <button onclick="copyToClipboard()" style="
+        margin: 0.5em 1em 1em;
+    ">Copiar</button>
+    
+        
+    
+        <img src="/imgs/pix-code.jpg" style=" width: 80%;">
+      </div>
     </div>
   </div>
 </div>
@@ -356,6 +385,22 @@ Depois, o primeiro encontro, o segundo...
       } else {
         content.style.display = "block";
       }
+    }
+  </script>
+  <script>
+    function copyToClipboard() {
+        /* Get the text field */
+        var copyText = document.getElementById("copyText");
+  
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+  
+        /* Alert the copied text */
+        alert("Chave copiada: " + copyText.value);
     }
   </script>
 </body></html>
